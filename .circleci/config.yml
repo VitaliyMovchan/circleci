@@ -11,10 +11,11 @@ jobs:
     docker:
       - image: cimg/php:8.3.2
     steps:
+      - checkout
       #- checkout Permission denied (publickey).
-      - run:
-          name: See files
-          command: ls ~/project | ls ~/circleci
+      #- run:
+          #name: See files
+          #command: ls ~/project | ls ~/circleci
           # bin  circleci  project
       - run:
           name: Install packages
