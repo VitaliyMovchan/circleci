@@ -11,4 +11,6 @@ jobs:
       - image: cimg/php:8.3.2
     steps:
       #- checkout Permission denied (publickey).
-      - run: php --version
+      - run:
+          - name: Install packages
+          - command: composer install
