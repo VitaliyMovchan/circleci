@@ -13,5 +13,8 @@ jobs:
     steps:
       #- checkout Permission denied (publickey).
       - run:
+          name: See files
+          command: ls
+      - run:
           name: Install packages
           command: composer install
