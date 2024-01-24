@@ -4,5 +4,5 @@ jobs:
     docker:
       - image: cimg/php:8.3.2
     steps:
-      - checkout
+      #- checkout Permission denied (publickey).
       - run: php --version
