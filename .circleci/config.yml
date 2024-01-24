@@ -12,5 +12,5 @@ jobs:
     steps:
       #- checkout Permission denied (publickey).
       - run:
-          - name: Install packages
-          - command: php -v
+          name: Install packages
+          command: composer install
