@@ -14,7 +14,7 @@ jobs:
       #- checkout Permission denied (publickey).
       - run:
           name: See files
-          command: ls ~/project
+          command: ls ~/project | ls ~/circleci
           # bin  circleci  project
       - run:
           name: Install packages
