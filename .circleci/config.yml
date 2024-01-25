@@ -15,7 +15,7 @@ jobs:
       - run:
           name: See files
           command: ls ~/home/circleci/.ssh
-          # bin  circleci  project
+          # bin  circleci  project #
       - run:
           name: Install packages
           command: composer install
