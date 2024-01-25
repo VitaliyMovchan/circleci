@@ -25,7 +25,7 @@ jobs:
           docker_layer_caching: true
       - run:
           name: Build image
-          command: build .
+          command: docker build .
       - run:
           name: Install packages
           command: composer install
