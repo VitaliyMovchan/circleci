@@ -13,9 +13,5 @@ jobs:
     steps:
       - checkout
       - run:
-          name: See files
-          command: ls ~/home/circleci/.ssh
-          # bin  circleci  project #
-      - run:
           name: Install packages
           command: composer install
